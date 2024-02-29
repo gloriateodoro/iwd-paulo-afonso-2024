@@ -22,7 +22,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-center justify-center xs:space-y-9 md:space-x-32 mb-9 mt-9">
           <div className="text-center flex flex-col items-center ">
             <div className="flex">
-            <Image src="/impact.png" alt="Logo" className="z-50 my-4" width={150} height={100} />
+            {/* <Image src="/impact.png" alt="Logo" className="z-50 my-4" width={150} height={100} /> */}
             <Image src="/brasao-paulo-afonso.png" alt="Logo" className="z-50 my-4" width={150} height={100} />
 
             </div>
@@ -39,9 +39,6 @@ export default function Home() {
             <Image src="/wtm.gif" alt="Logo" className="z-50" width="450" height={100} />
           </div>
         </div>
-
-
-
       </main>
        {/* Carrossel de Palestrantes */}
        <div className="bg-slate-600 flex flex-col items-center">
@@ -51,7 +48,6 @@ export default function Home() {
       {/* Footer */}
       <footer className="flex items-center justify-center p-4 bg-slate-200">
       <Image src="/impact.png" alt="Logo" className="z-50 my-4" width={150} height={100} />
-        {/* Adicione aqui as opções de contato ou outros elementos do footer */}
       </footer>
     </div>
   );
