@@ -27,7 +27,7 @@ const Carousel: React.FC<CarouselProps> = ({ speakers }) => {
         </button>
         <div className="flex flex-col md:flex-row justify-center mb-4">
           <img src={speakers[currentIndex].url} alt={`Slide ${currentIndex + 1}`} className="rounded-full h-72 w-72 object-cover" />
-          <div className="flex flex-col pl-6 pb-6">
+          <div className="flex flex-col justify-center pl-6 pb-6">
             <h2 className="text-lg font-bold">{speakers[currentIndex].name}</h2>
             <p className="text-md max-w-96">{speakers[currentIndex].description}</p>
           </div>

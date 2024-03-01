@@ -4,7 +4,7 @@ import Carousel from "./components/Carousel"
 
 export default function Home() {
   const speakers = [
-    { url: '/woman.png', name: 'Nome da Palestrante 1', description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.'},
+    { url: 'speakers/gloria.png', name: 'Glória Teodoro', description: 'Descrição da palestra'},
     { url: '/woman2.png', name: 'Nome da Palestrante 2', description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.' },
   ];
 
@@ -23,11 +23,11 @@ export default function Home() {
           <div className="text-center flex flex-col items-center ">
             <div className="flex">
             {/* <Image src="/impact.png" alt="Logo" className="z-50 my-4" width={150} height={100} /> */}
-            <Image src="/brasao-paulo-afonso.png" alt="Logo" className="z-50 my-4" width={150} height={100} />
 
+            <Image src="/impact.png" alt="Logo" className="z-50 my-4" width={150} height={100} />
             </div>
 
-            <h1 className="text-3xl font-bold mb-4">International Womens Day</h1>
+            <h1 className="text-3xl font-bold mb-4">International Womens Day 2024</h1>
             <div className="max-w-sm text-left">
               <p><b>Data:</b> 8 de Março de 2024</p>
               <p><b>Local:</b> Centro Universitário do Rio São Francisco Paulo Afonso - Bahia</p>
@@ -47,7 +47,8 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="flex items-center justify-center p-4 bg-slate-200">
-      <Image src="/impact.png" alt="Logo" className="z-50 my-4" width={150} height={100} />
+      <Image src="/brasao-paulo-afonso.png" alt="Logo" className="z-50 my-4" width={150} height={100} />
+
       </footer>
     </div>
   );
