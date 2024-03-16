@@ -68,8 +68,10 @@ export default function Home() {
                 <b>Data:</b> Vem aí...
               </p>
               <p>
-                <b>Local:</b> Centro Universitário do Rio São Francisco Paulo
-                Afonso - Bahia
+                <b>Cidade:</b> Paulo Afonso - Bahia
+              </p>
+              <p>
+                <b>Local:</b> Centro Universitário do Rio São Francisco
               </p>
               <p>
                 <b>Horário:</b> Vem aí...
