@@ -8,7 +8,7 @@ export default function Home() {
       url: "speakers/dominique.png",
       name: "Dominique Morem",
       description:
-        "Explorar a integração entre geografia, geoprocessamento e tecnologia da informação, levantando os benefícios profissionais, mercadológicos e de pesquisa que tal integração pode trazer: este é o objetivo da palestra. Nesta caminhada serão trabalhados tópicos que exemplificam como esses campos se interconectam e podem vir a ser agregadores a vida de um profissional de TI, tais como: a identificação de oportunidades de trabalho para profissionais de sistemas dentro do mercado do geoprocessamento, o apontamento de quais maneiras o pensamento geográfico pode ampliar a criatividade e o impacto social de projetos tecnológicos bem como o levantamento de metodologias de pesquisa de outras áreas cientificas que podem ser utilizadas em sistemas.",
+        "Nessa palestra interativa vamos explorar a integração entre geografia, geoprocessamento e tecnologia da informação, levantando os benefícios dessa união no âmbito profissional, mercadológico e acadêmico. Vamos entender sobre o profissional de TI dentro do mercado de geoprocessamento e como o pensamento geográfico pode ampliar a criatividade e o impacto social de projetos tecnológicos.",
     },
     {
       url: "speakers/gloria.png",
@@ -20,7 +20,7 @@ export default function Home() {
       url: "speakers/jainy.png",
       name: "Jainy Xavier",
       description:
-        "Construindo landing page sobre energias renováveis aplicados no cotidiano utilizando o framework Next.js e Tailwind.",
+        "Construindo landing page sobre energias renováveis aplicadas no cotidiano utilizando o framework Next.js e Tailwind.",
     },
     {
       url: "speakers/joyce.png",
@@ -65,7 +65,7 @@ export default function Home() {
             </h1>
             <div className="max-w-sm text-left">
               <p>
-                <b>Data:</b> 8 de Março de 2024
+                <b>Data:</b> Vem aí...
               </p>
               <p>
                 <b>Local:</b> Centro Universitário do Rio São Francisco Paulo
