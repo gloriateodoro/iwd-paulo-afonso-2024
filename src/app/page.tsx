@@ -8,7 +8,7 @@ export default function Home() {
       url: "speakers/dominique.png",
       name: "Dominique Morem",
       description:
-        "Explorar a integração entre geografia, geoprocessamento e tecnologia da informação, levantando os benefícios profissionais, mercadológicos e de pesquisa que tal integração pode trazer: este é o objetivo da palestra. Nesta caminhada serão trabalhados tópicos que exemplificam como esses campos se interconectam e podem vir a ser agregadores a vida de um profissional de TI, tais como: a identificação de oportunidades de trabalho para profissionais de sistemas dentro do mercado do geoprocessamento, o apontamento de quais maneiras o pensamento geográfico pode ampliar a criatividade e o impacto social de projetos tecnológicos bem como o levantamento de metodologias de pesquisa de outras áreas cientificas que podem ser utilizadas em sistemas.",
+        "Nessa palestra, que integra geografia, geoprocessamento e TI, serão identificadas: oportunidades p/ profissionais de tecnologia dentro do geoprocessamento, novas metodologias de pesquisa e exemplos de como a visão geográfica pode agregar a projetos em âmbito tecnológico.",
     },
     {
       url: "speakers/gloria.png",
