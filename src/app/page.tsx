@@ -8,7 +8,7 @@ export default function Home() {
       url: "speakers/dominique.png",
       name: "Dominique Morem",
       description:
-        "Nessa palestra, que integra geografia, geoprocessamento e TI, serão identificadas: oportunidades p/ profissionais de tecnologia dentro do geoprocessamento, novas metodologias de pesquisa e exemplos de como a visão geográfica pode agregar a projetos em âmbito tecnológico.",
+        "Nessa palestra interativa vamos explorar a integração entre geografia, geoprocessamento e tecnologia da informação, levantando os benefícios dessa união no âmbito profissional, mercadológico e acadêmico. Vamos entender sobre o profissional de TI dentro do mercado de geoprocessamento e como o pensamento geográfico pode ampliar a criatividade e o impacto social de projetos tecnológicos.",
     },
     {
       url: "speakers/gloria.png",
@@ -20,7 +20,7 @@ export default function Home() {
       url: "speakers/jainy.png",
       name: "Jainy Xavier",
       description:
-        "Construindo landing page sobre energias renováveis aplicados no cotidiano utilizando o framework Next.js e Tailwind.",
+        "Construindo landing page sobre energias renováveis aplicadas no cotidiano utilizando o framework Next.js e Tailwind.",
     },
     {
       url: "speakers/joyce.png",
@@ -65,11 +65,13 @@ export default function Home() {
             </h1>
             <div className="max-w-sm text-left">
               <p>
-                <b>Data:</b> 8 de Março de 2024
+                <b>Data:</b> Vem aí...
               </p>
               <p>
-                <b>Local:</b> Centro Universitário do Rio São Francisco Paulo
-                Afonso - Bahia
+                <b>Cidade:</b> Paulo Afonso - Bahia
+              </p>
+              <p>
+                <b>Local:</b> Centro Universitário do Rio São Francisco
               </p>
               <p>
                 <b>Horário:</b> Vem aí...
