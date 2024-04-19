@@ -14,7 +14,7 @@ export default function Home() {
       url: "speakers/jainy.png",
       name: "Jainy Xavier",
       description:
-        "Construindo landing page sobre energias renováveis aplicadas no cotidiano utilizando o framework Next.js e Tailwind.",
+        "Nessa oficina os participantes serão guiados para desenvolver uma landing page sobre energias renováveis aplicadas no cotidiano, utilizando o framework Next.js e Tailwind.",
     },
     {
       url: "speakers/joyce.png",
@@ -41,7 +41,7 @@ export default function Home() {
       <main className="flex flex-col items-center ">
         {/* Informações sobre o evento IWD */}
         <div className="flex flex-col md:flex-row items-center justify-center xs:space-y-9 md:space-x-32 mb-9 mt-9">
-          <div className="text-center flex flex-col items-center ">
+          <div className="text-center flex flex-col items-center px-5">
             <div className="flex">
               {/* <Image src="/impact.png" alt="Logo" className="z-50 my-4" width={150} height={100} /> */}
 

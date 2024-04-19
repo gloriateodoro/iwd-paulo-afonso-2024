@@ -32,19 +32,20 @@ const Carousel: React.FC<CarouselProps> = ({ speakers }) => {
           <Image
             src="/previous.svg"
             alt="Carousel Previous Icon"
-            className=""
             width={50}
             height={50}
           />
         </button>
-        <div className="flex flex-col md:flex-row justify-center mb-4">
+        <div className="flex flex-col md:flex-row justify-center items-center mb-4">
           <img
             src={speakers[currentIndex].url}
             alt={`Slide ${currentIndex + 1}`}
             className=" h-72 w-72 object-cover"
           />
           <div className="flex flex-col justify-center pl-6 pb-6 gap-2">
-            <h2 className="text-lg font-bold">{speakers[currentIndex].name}</h2>
+            <h2 className="text-lg font-bold pt-6">
+              {speakers[currentIndex].name}
+            </h2>
             <p className="text-md max-w-96">
               {speakers[currentIndex].description}
             </p>
