@@ -24,10 +24,10 @@ const Carousel: React.FC<CarouselProps> = ({ speakers }) => {
 
   return (
     <div className="py-5 flex flex-col gap-2 items-center">
-      <h1 className="text-3xl font-bold pb-4 pt-4 text-gray-300">
+      <h1 className="text-3xl font-bold pb-4 pt-4 text-gray-100">
         Palestrantes
       </h1>
-      <div className="carousel flex items-center text-gray-300">
+      <div className="carousel flex items-center text-gray-100">
         <button onClick={prevSlide}>
           <Image
             src="/previous.svg"
