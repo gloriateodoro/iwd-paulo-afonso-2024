@@ -11,12 +11,6 @@ export default function Home() {
         "Nessa palestra interativa vamos explorar a integração entre geografia, geoprocessamento e tecnologia da informação, levantando os benefícios dessa união no âmbito profissional, mercadológico e acadêmico. Vamos entender sobre o profissional de TI dentro do mercado de geoprocessamento e como o pensamento geográfico pode ampliar a criatividade e o impacto social de projetos tecnológicos.",
     },
     {
-      url: "speakers/gloria.png",
-      name: "Glória Teodoro",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, blanditiis saepe magni ullam animi repellat atque quod deserunt reiciendis eveniet. Corporis, excepturi laborum. Suscipit tempora, alias assumenda iusto iste vero.",
-    },
-    {
       url: "speakers/jainy.png",
       name: "Jainy Xavier",
       description:
@@ -65,7 +59,7 @@ export default function Home() {
             </h1>
             <div className="max-w-sm text-left">
               <p>
-                <b>Data:</b> Vem aí...
+                <b>Data:</b> 30/04/2024
               </p>
               <p>
                 <b>Cidade:</b> Paulo Afonso - Bahia
@@ -74,7 +68,7 @@ export default function Home() {
                 <b>Local:</b> Centro Universitário do Rio São Francisco
               </p>
               <p>
-                <b>Horário:</b> Vem aí...
+                <b>Horário:</b> 14:00
               </p>
             </div>
           </div>
